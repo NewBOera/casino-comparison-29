@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
 
-    <link rel="stylesheet" href="/public/styles/globals.css" />
-    <link rel="stylesheet" href="/public/styles/output.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
 
-    <!-- Adobe Font -->
-    <link rel="stylesheet" href="https://use.typekit.net/qlw2ops.css" />
-  </head>
-  <body>
-    <navbar-mobile></navbar-mobile>
-    <navbar-desktop></navbar-desktop>
+  <link rel="stylesheet" href="/public/styles/globals.css" />
+  <link rel="stylesheet" href="/public/styles/output.css" />
 
-    <main class="flex flex-col gap-10 md:gap-12 lg:gap-14">
-      <hero-section></hero-section>
-    </main>
+  <!-- Adobe Font -->
+  <link rel="stylesheet" href="https://use.typekit.net/qlw2ops.css" />
+</head>
 
-    <script src="/src/components/NavbarMobile.js" type="module"></script>
-    <script src="/src/components/NavbarDesktop.js" type="module"></script>
+<body>
+  <navbar-mobile></navbar-mobile>
+  <navbar-desktop></navbar-desktop>
 
-    <script src="/src/ui/home/Hero.js" type="module"></script>
-  </body>
+  <main class="flex flex-col gap-10 md:gap-12 lg:gap-14">
+    <hero-section></hero-section>
+    <after-hero-section></after-hero-section>
+    <footer-element></footer-element>
+  </main>
+
+  <script src="/src/components/NavbarMobile.js" type="module"></script>
+  <script src="/src/components/NavbarDesktop.js" type="module"></script>
+  <script type="module" src="/src/ui/home/AfterHero.js"></script>
+  <script src="/src/components/Footer.js" type="module"></script>
+
+
+  <script src="/src/ui/home/Hero.js" type="module"></script>
+</body>
+
 </html>
