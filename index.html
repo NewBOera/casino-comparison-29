@@ -10,6 +10,16 @@
 
     <!-- Adobe Font -->
     <link rel="stylesheet" href="https://use.typekit.net/qlw2ops.css" />
+
+    <!-- Components -->
+    <script src="/src/components/NavbarMobile.js" type="module"></script>
+    <script src="/src/components/NavbarDesktop.js" type="module"></script>
+    <script src="/src/ui/home/Hero.js" type="module"></script>
+    <script src="/src/ui/home/About.js" type="module"></script>
+    <script src="/src/ui/home/CasinoChoices.js" type="module"></script>
+    <script src="/src/ui/home/WhyChoose.js" type="module"></script>
+    <script src="/src/ui/home/Top/TopSection.js" type="module"></script>
+    <script src="/src/ui/home/Top/Casino.js" type="module"></script>
   </head>
   <body>
     <navbar-mobile></navbar-mobile>
@@ -17,11 +27,10 @@
 
     <main class="flex flex-col gap-10 md:gap-12 lg:gap-14">
       <hero-section></hero-section>
+      <about-section></about-section>
+      <casino-choices-section></casino-choices-section>
+      <why-choose-section></why-choose-section>
+      <top-section></top-section>
     </main>
-
-    <script src="/src/components/NavbarMobile.js" type="module"></script>
-    <script src="/src/components/NavbarDesktop.js" type="module"></script>
-
-    <script src="/src/ui/home/Hero.js" type="module"></script>
   </body>
 </html>

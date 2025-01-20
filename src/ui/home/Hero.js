@@ -3,7 +3,6 @@ import { LitElement, html } from 'https://cdn.jsdelivr.net/gh/lit/dist@3/core/li
 export class Hero extends LitElement {
   constructor() {
     super();
-    this.name = 'World';
   }
 
   createRenderRoot() {
@@ -37,24 +36,23 @@ export class Hero extends LitElement {
         <div
           class="sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] w-full px-4 sm:px-6 md:px-8 lg:px-10 h-full flex flex-col justify-center items-center gap-8 mt-[130px] lg:mt-[80px]"
         >
-          <h1 class="font-Poppins text-2xl flex flex-col">
-            <span>Top 7 Casinos in</span>
-            <span>Birmingham, UK</span>
+          <h1 class="text-3xl font-normal md:text-4xl xl:text-5xl">
+            <span class="text-purple">Top 7 Casinos in</span>
+            <br class="sm:hidden" />
+            Birmingham, UK
           </h1>
 
-          <p class="text-center">Where the best gaming venues from the West Midlands come together. Explore the thrilling venues this UK city has to offer in one place!</p>
+          <p class="text-center md:text-lg xl:text-xl md:w-[600px] lg:w-[800px] xl:w-[600px]">
+            Where the best gaming venues from the West Midlands come together. Explore the thrilling venues this UK city has to offer in one place!
+          </p>
 
           <div class="flex gap-6">
-            <a href="" class="flex-1 text-center gradient text-white rounded-2xl py-2 px-4">Contact Us</a>
-            <a href="" class="flex-1 text-center bg-white rounded-2xl py-2 px-4">Contact Us</a>
+            <a href="" class="text-center gradient text-white rounded-2xl py-2 px-4 font-medium md:text-lg lg:text-xl lg:px-6">Contact Us</a>
+            <a href="" class="text-center bg-white rounded-2xl py-2 px-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] font-medium md:text-lg lg:text-xl lg:px-6">Contact Us</a>
           </div>
         </div>
       </section>
     `;
-  }
-
-  updateName(event) {
-    this.name = event.target.value;
   }
 }
 
