@@ -7,14 +7,21 @@
 
     <link rel="stylesheet" href="/public/styles/globals.css" />
     <link rel="stylesheet" href="/public/styles/output.css" />
+
+    <!-- Adobe Font -->
+    <link rel="stylesheet" href="https://use.typekit.net/qlw2ops.css" />
   </head>
   <body>
     <navbar-mobile></navbar-mobile>
     <navbar-desktop></navbar-desktop>
 
-    <main class="flex flex-col gap-10 md:gap-12 lg:gap-14"></main>
+    <main class="flex flex-col gap-10 md:gap-12 lg:gap-14">
+      <hero-section></hero-section>
+    </main>
 
     <script src="/src/components/NavbarMobile.js" type="module"></script>
     <script src="/src/components/NavbarDesktop.js" type="module"></script>
+
+    <script src="/src/ui/home/Hero.js" type="module"></script>
   </body>
 </html>

@@ -2,3 +2,11 @@ html,
 body {
   scroll-behavior: smooth;
 }
+
+section {
+  scroll-margin-top: 100px;
+}
+
+.gradient {
+  background: linear-gradient(180deg, #ff00cc -37.84%, #333399 106.76%);
+}
