@@ -1,9 +1,11 @@
 html,
 body {
   scroll-behavior: smooth;
+  font-family: 'poppins', 'sans-serif';
 }
 
-section {
+section,
+div {
   scroll-margin-top: 100px;
 }
 

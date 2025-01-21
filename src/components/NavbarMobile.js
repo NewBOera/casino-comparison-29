@@ -2,7 +2,14 @@ import { LitElement, html, css } from 'https://cdn.jsdelivr.net/gh/lit/dist@3/co
 
 export class NavbarMobile extends LitElement {
   static properties = {
-    isLanding: { type: Boolean, attribute: 'is-landing' },
+    isLanding: {
+      type: Boolean,
+      attribute: 'is-landing',
+      converter: {
+        fromAttribute: value => value !== 'false',
+        toAttribute: value => value.toString(),
+      },
+    },
     isMenuOpen: { type: Boolean, state: true },
   };
 
@@ -12,7 +19,7 @@ export class NavbarMobile extends LitElement {
     }
 
     .bg-menu-navbar {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/public/assets/faq.jpeg');
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/public/assets/navbar/background.png');
       background-size: cover;
       background-position: center;
     }
@@ -32,7 +39,6 @@ export class NavbarMobile extends LitElement {
 
   constructor() {
     super();
-    this.isLanding = false;
     this.isMenuOpen = false;
   }
 
@@ -52,19 +58,19 @@ export class NavbarMobile extends LitElement {
         <nav class="flex z-50 relative justify-between h-[80px] bg-[#FFFFFF] sm:w-[640px] md:w-[768px] w-full">
           <div class="text-lg flex gap-4 items-center">
             <a class="flex items-center gap-2" href="${this.isLanding ? '#home-section' : 'index.html'}">
-              <img class="object-contain w-[60px]" src="/public/assets/navbar/logo.webp" alt="" id="logo-mobile" title="" />
+              <img class="object-contain w-[45px]" src="/public/assets/navbar/logo.png" alt="" id="logo-mobile" title="" />
             </a>
           </div>
           <div id="menu-icon-container" class="flex items-center justify-center" @click="${this.toggleMenu}">
             <div>
-              <img src="/public/assets/navbar/menu-icon.webp" class="size-8 object-contain" id="menu-icon" alt="Menu icon" />
+              <img src="/public/assets/navbar/menu-icon.png" class="size-7 object-contain" id="menu-icon" alt="Menu icon" />
             </div>
           </div>
         </nav>
 
         <div
           id="menu"
-          class="bg-menu-navbar bg-black min-h-[800px] w-full h-screen shadow-md transition-menu flex flex-col gap-12 justify-center absolute z-50 top-0 right-0 left-0 md:hidden text-[#FFFFFF] px-8 navbar-menu ${this
+          class="bg-menu-navbar min-h-[800px] w-full h-screen shadow-md transition-menu flex flex-col gap-12 justify-center absolute z-50 top-0 right-0 left-0 md:hidden text-[#FFFFFF] px-8 navbar-menu ${this
             .isMenuOpen
             ? 'menu-open'
             : 'menu-closed'}"
