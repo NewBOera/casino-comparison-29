@@ -22,12 +22,14 @@
     <script src="/src/ui/home/Top/Casino.js" type="module"></script>
   </head>
   <body>
-    <navbar-mobile></navbar-mobile>
-    <navbar-desktop></navbar-desktop>
+    <navbar-mobile is-landing="true"></navbar-mobile>
+    <navbar-desktop is-landing="true"></navbar-desktop>
 
     <main class="flex flex-col gap-10 md:gap-12 lg:gap-14">
       <hero-section></hero-section>
-      <about-section></about-section>
+      <div id="about-section">
+        <about-section></about-section>
+      </div>
       <casino-choices-section></casino-choices-section>
       <why-choose-section></why-choose-section>
       <top-section></top-section>

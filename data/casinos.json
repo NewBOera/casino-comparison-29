@@ -19,7 +19,9 @@
       "pricing": {
         "starting": 893,
         "upTo": 2677
-      }
+      },
+      "bestFor": "All inclusive venue",
+      "standOut": "Amazing views & plenty of casino games"
     },
     "ctaButton": "Obtain a special",
     "gallery": [
@@ -50,7 +52,7 @@
     "casinoInfo": {
       "title": "Top gaming venue in Hurst Street",
       "name": "Genting Casino Birmingham Chinatown",
-      "id": "Genting_Casino_Birmingham_Chinatown",
+      "id": "Genting_Casino_Birmingham",
       "features": [
         "Offering a double-story venue full of casino games",
         "Boasting the best Chinese restaurant in town",
@@ -65,13 +67,31 @@
       "pricing": {
         "starting": 777,
         "upTo": 2333
-      }
+      },
+      "bestFor": "Asian-style environment",
+      "standOut": "Classic casino games & Chinese restaurant"
     },
     "ctaButton": "Secure your slot",
     "gallery": [
       {
-        "image": "/public/assets/gallery/casino-2/1.png",
-        "metadata": "Genting Casino Birmingham Chinatown"
+        "image": "/public/assets/gallery/casino-1/1.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/2.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/3.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/4.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/5.png",
+        "metadata": "Resorts World Casino"
       }
     ]
   },
@@ -95,13 +115,31 @@
       "pricing": {
         "starting": 753,
         "upTo": 2259
-      }
+      },
+      "bestFor": "Late entertainment",
+      "standOut": "Traditional gaming array"
     },
     "ctaButton": "Get a promotion",
     "gallery": [
       {
-        "image": "/public/assets/gallery/casino-3/1.png",
-        "metadata": "Grosvenor Casino Birmingham"
+        "image": "/public/assets/gallery/casino-1/1.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/2.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/3.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/4.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/5.png",
+        "metadata": "Resorts World Casino"
       }
     ]
   },
@@ -110,7 +148,7 @@
     "casinoInfo": {
       "title": "Top landmark casino in Birmingham",
       "name": "Rainbow Casino",
-      "id": "Rainbow_Casino",
+      "id": "Rainbow_Casino_Birmingham",
       "features": [
         "Established ever since 1962",
         "Offering a comfortable poker room",
@@ -125,13 +163,31 @@
       "pricing": {
         "starting": 697,
         "upTo": 2093
-      }
+      },
+      "bestFor": "A landmark experience",
+      "standOut": "Outdoor gaming terrace & tasty buds"
     },
     "ctaButton": "Book it here",
     "gallery": [
       {
-        "image": "/public/assets/gallery/casino-4/1.png",
-        "metadata": "Rainbow Casino"
+        "image": "/public/assets/gallery/casino-1/1.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/2.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/3.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/4.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/5.png",
+        "metadata": "Resorts World Casino"
       }
     ]
   },
@@ -140,7 +196,7 @@
     "casinoInfo": {
       "title": "Top casino in the West Bromwich area",
       "name": "Shaftesbury Casino",
-      "id": "Shaftesbury_Casino",
+      "id": "Shaftesbury_Casino_West_Bromwich",
       "features": [
         "Offering all the high stakes table games",
         "Boasting a comprehensive dining experience",
@@ -155,13 +211,31 @@
       "pricing": {
         "starting": 579,
         "upTo": 1737
-      }
+      },
+      "bestFor": "Traditional gaming",
+      "standOut": "Off-centre area location & great food and drinks"
     },
     "ctaButton": "Obtain your offer",
     "gallery": [
       {
-        "image": "/public/assets/gallery/casino-5/1.png",
-        "metadata": "Shaftesbury Casino"
+        "image": "/public/assets/gallery/casino-1/1.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/2.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/3.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/4.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/5.png",
+        "metadata": "Resorts World Casino"
       }
     ]
   },
@@ -185,13 +259,31 @@
       "pricing": {
         "starting": 453,
         "upTo": 1359
-      }
+      },
+      "bestFor": "Bingo fun",
+      "standOut": "Large gaming floor & parking included"
     },
     "ctaButton": "Make your reservation",
     "gallery": [
       {
-        "image": "/public/assets/gallery/casino-6/1.png",
-        "metadata": "Mecca Acocks Green"
+        "image": "/public/assets/gallery/casino-1/1.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/2.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/3.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/4.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/5.png",
+        "metadata": "Resorts World Casino"
       }
     ]
   },
@@ -200,7 +292,7 @@
     "casinoInfo": {
       "title": "Top Slots venue in the Erdington Area",
       "name": "Merkur Slots",
-      "id": "Merkur_Slots",
+      "id": "Merkur_Slots_Erdington",
       "features": [
         "Boasting a wide array of slot machines",
         "Including all time classics as the latest titles",
@@ -215,13 +307,31 @@
       "pricing": {
         "starting": 313,
         "upTo": 939
-      }
+      },
+      "bestFor": "Slot extravaganza",
+      "standOut": "Unlimited refreshments and electronic gaming"
     },
     "ctaButton": "Prepare your visit",
     "gallery": [
       {
-        "image": "/public/assets/gallery/casino-7/1.png",
-        "metadata": "Merkur Slots"
+        "image": "/public/assets/gallery/casino-1/1.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/2.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/3.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/4.png",
+        "metadata": "Resorts World Casino"
+      },
+      {
+        "image": "/public/assets/gallery/casino-1/5.png",
+        "metadata": "Resorts World Casino"
       }
     ]
   }

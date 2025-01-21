@@ -44,10 +44,10 @@ export class TopSection extends LitElement {
     }
 
     return html`
-      <section id="casino-choices-section" class="flex justify-center items-center">
+      <section id="top-7-section" class="flex justify-center items-center">
         <div class="sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] w-full px-4 sm:px-6 md:px-8 lg:px-10">
           <h2 class="font-medium text-lg xl:text-2xl text-center">Explore the best gaming options Birmingham has to offer</h2>
-          <div class="mt-8 flex flex-col gap-10">
+          <div class="mt-8 flex flex-col gap-10 lg:gap-14 xl:gap-20">
             ${this.casinosIDs.map(
               casino => html`
                 <casino-element casinoID=${casino.id}></casino-element>
