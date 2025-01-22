@@ -47,8 +47,10 @@ export class Hero extends LitElement {
           </p>
 
           <div class="flex gap-6">
-            <a href="" class="text-center gradient text-white rounded-2xl py-2 px-4 font-medium md:text-lg lg:text-xl lg:px-6">Contact Us</a>
-            <a href="" class="text-center bg-white rounded-2xl py-2 px-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] font-medium md:text-lg lg:text-xl lg:px-6">Contact Us</a>
+            <a href="" class="text-center gradient text-white rounded-2xl py-2 px-4 font-medium md:text-lg lg:text-xl lg:px-6 hover:scale-95 transition-all duration-200">Contact Us</a>
+            <a href="" class="text-center bg-white rounded-2xl py-2 px-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] font-medium md:text-lg lg:text-xl lg:px-6 hover:scale-95 transition-all duration-200">
+              Contact Us
+            </a>
           </div>
         </div>
       </section>

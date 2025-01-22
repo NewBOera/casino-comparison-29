@@ -539,6 +539,12 @@ export class BookingForm extends LitElement {
               <select name="casino" class="w-full px-4 py-3 rounded-lg bg-[#FFFFFF] border-[1px] border-[#100D0826] appearance-none" required>
                 <option value="" disabled selected>Select destination</option>
                 <option value="Resorts_World_Casino" ?selected=${this.casinoSelected === 'Resorts_World_Casino'}>Resorts World Casino</option>
+                <option value="Genting_Casino_Birmingham" ?selected=${this.casinoSelected === 'Genting_Casino_Birmingham'}>Genting Casino Birmingham Chinatown</option>
+                <option value="Grosvenor_Casino_Birmingham" ?selected=${this.casinoSelected === 'Grosvenor_Casino_Birmingham'}>Grosvenor Casino Birmingham</option>
+                <option value="Rainbow_Casino_Birmingham" ?selected=${this.casinoSelected === 'Rainbow_Casino_Birmingham'}>Rainbow Casino</option>
+                <option value="Shaftesbury_Casino_West_Bromwich" ?selected=${this.casinoSelected === 'Shaftesbury_Casino_West_Bromwich'}>Shaftesbury Casino</option>
+                <option value="Mecca_Acocks_Green" ?selected=${this.casinoSelected === 'Mecca_Acocks_Green'}>Mecca Acocks Green</option>
+                <option value="Merkur_Slots_Erdington" ?selected=${this.casinoSelected === 'Merkur_Slots_Erdington'}>Merkur Slots</option>
               </select>
             </div>
 

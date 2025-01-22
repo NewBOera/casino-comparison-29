@@ -2,21 +2,56 @@ import { LitElement, html, css } from 'https://cdn.jsdelivr.net/gh/lit/dist@3/co
 import '../../components/ImgAh.js';
 
 export class AfterHero extends LitElement {
+  constructor() {
+    super();
+  }
+
+  createRenderRoot() {
+    return this;
+  }
+
   render() {
     return html`
       <link rel="stylesheet" href="/public/styles/output.css" />
+      <link rel="stylesheet" href="/public/styles/globals.css" />
 
-      <section class="bg-[#F4F4F4] flex flex-col gap-4 py-5 px-4">
-        <div>
-          <p class="text-xl font-semibold ">We unearth Birmingham’s gaming value as a leading hub for the casino industry</p>
-          <p class=" text-base font-normal">
-            It is no secret that the United Kingdom’s casino industry has boosted over the years, positioning itself as one of the major hubs for gaming entertainment worldwide. Aside from London,
-            Birmingham has more land-based casinos than any city in the country. Having in mind that the Midlands town may be the second largest gaming city in the UK, is the reason behind the
-            creation of this platform.
-          </p>
+      <section id="about-section" class="flex justify-center items-center">
+        <div class="sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] w-full px-4 sm:px-6 md:px-8 lg:px-10">
+          <section class="bg-[#F4F4F4] flex flex-col lg:flex-row gap-4 lg:gap-12 xl:gap-20 p-4 lg:p-5 xl:p-8 rounded-xl">
+            <div class="flex flex-col justify-center gap-4 lg:w-7/12 xl:w-8/12">
+              <h2 class="font-medium text-lg xl:text-2xl">We unearth Birmingham’s gaming value as a leading hub for the casino industry</h2>
+              <p class="text-base font-normal lg:text-lg xl:text-xl xl:leading-relaxed">
+                It is no secret that the United Kingdom’s casino industry has boosted over the years, positioning itself as one of the major hubs for gaming entertainment worldwide. Aside from London,
+                Birmingham has more land-based casinos than any city in the country. Having in mind that the Midlands town may be the second largest gaming city in the UK, is the reason behind the
+                creation of this platform.
+              </p>
+            </div>
+
+            <section class="flex gap-4 w-full lg:w-5/12 xl:w-4/12 h-full max-h-[300px]">
+              <div class="flex flex-col justify-between gap-4">
+                <div class="w-full h-[133.33px] lg:h-[33%] overflow-hidden rounded-lg">
+                  <img src="/public/assets/afterHero/1.png" alt="Slot machines in casino" class="w-full h-full object-cover" />
+                </div>
+                <div class="w-full h-[133.33px] lg:h-[33%] overflow-hidden rounded-lg lg:w-[calc(100%+20px)] lg:-ml-[20px] xl:w-[calc(100%+40px)] xl:-ml-[40px]">
+                  <img src="/public/assets/afterHero/2.png" alt="Poker cards and chips" class="w-full h-full object-cover" />
+                </div>
+                <div class="w-full h-[133.33px] lg:h-[33%] overflow-hidden rounded-lg">
+                  <img src="/public/assets/afterHero/3.png" alt="Dice and casino chips" class="w-full h-full object-cover" />
+                </div>
+              </div>
+
+              <div class="flex flex-col justify-between gap-4">
+                <div class="w-full h-2/4 lg:h-2/4 overflow-hidden rounded-lg">
+                  <img src="/public/assets/afterHero/4.png" alt="Casino slot machines" class="w-full h-full object-cover" />
+                </div>
+                <div class="w-full h-2/4 lg:h-2/4 overflow-hidden rounded-lg">
+                  <img src="/public/assets/afterHero/5.png" alt="Casino poker table" class="w-full h-full object-cover" />
+                </div>
+              </div>
+            </section>
+          </section>
         </div>
       </section>
-      <img-after-hero></img-after-hero>
     `;
   }
 }

@@ -23,6 +23,7 @@
     <script src="/src/ui/minicards.js" type="module"></script>
     <script src="/src/ui/cards.js" type="module"></script>
     <script src="/src/ui/home/AfterHero.js" type="module"></script>
+    <script src="/src/ui/home/Faq.js" type="module"></script>
     <script src="/src/components/Footer.js" type="module"></script>
   </head>
   <body>
@@ -30,18 +31,55 @@
     <navbar-desktop is-landing="true"></navbar-desktop>
 
     <main class="flex flex-col gap-10 md:gap-12 lg:gap-14">
-      <hero-section></hero-section>
+      <div id="hero-section">
+        <hero-section></hero-section>
+      </div>
+
       <after-hero-section></after-hero-section>
-      <minicards-section></minicards-section>
-      <cards-section></cards-section>
+
       <div id="about-section">
         <about-section></about-section>
       </div>
+
       <casino-choices-section></casino-choices-section>
-      <why-choose-section></why-choose-section>
-      <top-section></top-section>
+
+      <minicards-section></minicards-section>
+
+      <div id="why-us-section">
+        <why-choose-section></why-choose-section>
+      </div>
+
+      <cards-section></cards-section>
+
+      <div id="top-7-section">
+        <top-section></top-section>
+      </div>
+
+      <div id="faq-section">
+        <faq-section></faq-section>
+      </div>
     </main>
 
-    <footer-element></footer-element>
+    <footer-element is-landing="true"></footer-element>
+
+    <script>
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          const hash = window.location.hash;
+          if (hash) {
+            const sectionId = hash.slice(1);
+            const section = document.getElementById(sectionId);
+            if (section) {
+              const headerHeight = 120;
+              const offset = section.offsetTop - headerHeight;
+              window.scrollTo({
+                top: offset,
+                behavior: 'smooth',
+              });
+            }
+          }
+        }, 200); // espera 2 segundos
+      });
+    </script>
   </body>
 </html>

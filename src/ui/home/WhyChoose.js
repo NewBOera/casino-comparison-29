@@ -18,18 +18,18 @@ export class WhyChoose extends LitElement {
 
             <p class="font-medium xl:text-lg">Unearth the top casinos in the second largest gaming city in the UK.</p>
 
-            <p class="xl:text-lg">
+            <p class="text-base font-normal lg:text-lg xl:text-xl xl:leading-relaxed">
               Have you ever considered why casinos have an allure that is rather distinct? Top-notch venues may include a buzzing and lively atmosphere for a night out, with scented-air, twinkling
               neon lights, not to mention the releasing coins cling-clang metallic sound of slot machines indicating somebody just got lucky to walk away with a nice prize.
             </p>
 
-            <p class="xl:text-lg">
+            <p class="text-base font-normal lg:text-lg xl:text-xl xl:leading-relaxed">
               Also, the thrill and chance to beat the dealer at blackjack, land on the right color at the roulette table, and lead the first place with a surprising poker hand. We understand all the
               excitement of the right casino experience. Whether you are an expert high-roller or an occasional customer to casinos, we know what you are looking for. And that is just the most
               valuable reason why trust our platform to choose a visit for your next escape.
             </p>
 
-            <p class="xl:text-lg">
+            <p class="text-base font-normal lg:text-lg xl:text-xl xl:leading-relaxed">
               While London boasts casinos with tradition and history Birmingham is offering modern alternatives where leisure meets roulette, poker, slots to compete with the capital city venues, not
               to mention other international gaming hubs. Having all this in consideration we have designed this unique platform dedicated to the second largest gaming town in the UK.
             </p>

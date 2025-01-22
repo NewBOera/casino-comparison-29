@@ -14,39 +14,52 @@
     <!-- Components -->
     <script src="/src/components/NavbarMobile.js" type="module"></script>
     <script src="/src/components/NavbarDesktop.js" type="module"></script>
+    <script src="/src/components/Footer.js" type="module"></script>
     <script src="/src/ui/Form.js" type="module"></script>
   </head>
   <body>
-    <style>
-      #booking {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/public/assets/booking/booking.png');
-        background-size: cover;
-        background-position: center;
-      }
-    </style>
-
     <navbar-mobile is-landing="false"></navbar-mobile>
     <navbar-desktop is-landing="false"></navbar-desktop>
 
-    <main id="booking" class="min-h-screen grid place-content-center">
-      <div
-        class="sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] w-full px-4 sm:px-6 md:px-8 lg:px-10 h-full flex flex-col items-center justify-center gap-2 md:gap-4 lg:gap-10 pt-[130px] lg:pt-[80px] lg:flex-row"
-      >
-        <article class="w-full lg:w-5/12 xl:w-4/12 text-white flex flex-col gap-6">
-          <h1 class="font-medium text-center text-xl lg:text-start md:text-2xl xl:text-3xl">Grab your slot for a memorable visit to Birmingham’s top casinos here!</h1>
+    <main id="thank-you" class="flex flex-col gap-10 md:gap-12 lg:gap-14">
+      <style>
+        .ty-section {
+          background-image: url('/public/assets/thank-you/bg.png');
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+        .beat-animation {
+          animation: beat 1s infinite;
+        }
 
-          <p class="text-center lg:text-start text-sm md:text-base xl:text-lg">
-            Offers won’t last for long. Make sure to book your visit today by leaving us your contact information. One of our professional agents will be happy to fine tune your slot reservation as
-            soon as possible.
-          </p>
-        </article>
-
-        <article class="w-full lg:w-7/12 xl:w-8/12 flex justify-center">
-          <div class="bg-[#F3F3F3] rounded-lg p-4 grid place-content-center max-w-[500px] lg:max-w-[1400px] sm:my-10 lg:my-20">
-            <booking-form></booking-form>
-          </div>
-        </article>
+        @keyframes beat {
+          0% {
+            transform: scale(1);
+          }
+          50% {
+            transform: scale(1.1);
+          }
+          100% {
+            transform: scale(1);
+          }
+        }
+      </style>
+      <div class="mt-[80px] w-full flex justify-center items-center h-max md:min-h-[70vh]">
+        <div class="sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] w-full px-4 sm:px-6 md:px-8 lg:px-10 h-full flex justify-center items-center min-h-[400px]">
+          <section class="ty-section rounded-2xl overlay flex justify-center items-center w-full">
+            <div class="flex flex-col items-center gap-5 text-white text-center my-12 md:my-16 lg:my-32">
+              <img src="/public/assets/thank-you/heart.png" class="size-[65px] object-contain beat-animation" alt="Heart symbol" title="Heart symbol" />
+              <h5 class="text-lg md:text-xl lg:text-2xl">We appreciate your details!</h5>
+              <p class="text-center font-light md:text-lg lg:text-[20px] w-full max-w-[400px] lg:max-w-[600px] xl:max-w-[800px]">
+                Soon enough our dedicated agents will contact you to confirm your booking for an unforgettable escape to Birmingham’s top casinos.
+              </p>
+            </div>
+          </section>
+        </div>
       </div>
     </main>
+
+    <footer-element in-landing="false"></footer-element>
   </body>
 </html>

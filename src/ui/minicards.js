@@ -38,8 +38,8 @@ export class MiniCards extends LitElement {
         <div class="flex flex-col ${isEven ? 'lg:flex-row-reverse text-right' : 'lg:flex-row text-left'} lg:gap-4 text-[18px] border p-6 md:p-8 items-start gap-2 rounded-lg">
           <img src="/public/assets/minicards/icon.png" class="size-[65px] mb-5" alt="" />
           <div>
-            <h3 class="font-bold ">${item.title}</h3>
-            <p>${item.description}</p>
+            <h3 class="font-bold text-base lg:text-lg xl:text-xl xl:leading-relaxed">${item.title}</h3>
+            <p class="text-base font-normal lg:text-lg xl:text-xl xl:leading-relaxed">${item.description}</p>
           </div>
         </div>
       `;
@@ -49,8 +49,8 @@ export class MiniCards extends LitElement {
   render() {
     return html`
       <section id="minicards-section" class="flex justify-center items-center">
-        <div class="sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] w-full px-4 sm:px-6 md:px-8 lg:px-10 h-full flex flex-col justify-center items-center gap-8 ">
-          <h3 class="font-bold text-[20px] lg:text-[26px]/[39px] text-left w-full">Make the most of our unique ranking platform offer:</h3>
+        <div class="sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] w-full px-4 sm:px-6 md:px-8 lg:px-10 h-full flex flex-col justify-center items-center gap-8">
+          <h2 class="font-medium text-lg xl:text-2xl w-full">Make the most of our unique ranking platform offer:</h2>
           <div class="flex flex-col gap-4 w-full">${this.generateCards()}</div>
         </div>
       </section>

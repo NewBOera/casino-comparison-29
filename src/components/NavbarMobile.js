@@ -70,7 +70,7 @@ export class NavbarMobile extends LitElement {
 
         <div
           id="menu"
-          class="bg-menu-navbar min-h-[800px] w-full h-screen shadow-md transition-menu flex flex-col gap-12 justify-center absolute z-50 top-0 right-0 left-0 md:hidden text-[#FFFFFF] px-8 navbar-menu ${this
+          class="bg-menu-navbar min-h-[800px] w-full h-screen shadow-md transition-menu flex flex-col gap-12 justify-center absolute z-50 top-0 right-0 left-0 lg:hidden text-[#FFFFFF] px-8 navbar-menu ${this
             .isMenuOpen
             ? 'menu-open'
             : 'menu-closed'}"
@@ -114,8 +114,8 @@ export class NavbarMobile extends LitElement {
               </a>
             </li>
             <li class="w-full">
-              <a href="${this.isLanding ? '#top-10-section' : 'index.html#top-10-section'}" class="text-lg flex items-center justify-between" @click="${this.closeMenu}">
-                <span>Top 10</span>
+              <a href="${this.isLanding ? '#top-7-section' : 'index.html#top-7-section'}" class="text-lg flex items-center justify-between" @click="${this.closeMenu}">
+                <span>Top 7</span>
                 <img
                   src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik04LjAyNSAyMkw2LjI1IDIwLjIyNUwxNC40NzUgMTJMNi4yNSAzLjc3NUw4LjAyNSAybDEwIDEweiIvPjwvc3ZnPg=="
                   alt="Arrow icon"

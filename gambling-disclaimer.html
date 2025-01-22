@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gambling Disclaimer</title>
+    <link rel="stylesheet" href="/public/styles/globals.css" />
+    <link rel="stylesheet" href="/public/styles/output.css" />
+    <!-- Adobe Font -->
+    <link rel="stylesheet" href="https://use.typekit.net/qlw2ops.css" />
+    <!-- Components -->
+    <script src="/src/components/NavbarMobile.js" type="module"></script>
+    <script src="/src/components/NavbarDesktop.js" type="module"></script>
+    <script src="/src/components/Footer.js" type="module"></script>
+  </head>
+  <body>
+    <navbar-mobile is-landing="false"></navbar-mobile>
+    <navbar-desktop is-landing="false"></navbar-desktop>
+    <main id="gambling-disclaimer" class="min-h-[70vh] pt-[80px] lg:pt-[80px] flex flex-col items-center">
+      <div class="bg-[#0F0F0F] pt-14 pb-8 w-full flex justify-center">
+        <article class="sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] w-full px-4 sm:px-6 md:px-8 lg:px-10 h-full flex flex-col gap-2 text-white">
+          <h1 class="text-lg sm:text-xl lg:text-2xl">Gambling Disclaimer</h1>
+          <h2 class="text-sm sm:text-base lg:text-lg font-medium">Gaming responsibly is key to a positive experience.</h2>
+        </article>
+      </div>
+      <div class="sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] w-full px-4 sm:px-6 md:px-8 lg:px-10 h-full flex flex-col gap-4 lg:gap-6 xl:gap-8 mt-8">
+        <article class="w-full flex flex-col gap-4">
+          <p class="text-sm md:text-base xl:text-lg">
+            Always remember to keep your gambling enjoyable and within your financial means. At
+            <span class="font-medium">[change_NAME]</span>
+            we want you to have fun on your casino visit. We strongly encourage that gambling should only be allowed for those legally aged, and we advocate responsible gaming. If gambling no longer
+            feels like a game, it may be time to step away. In some cases, you may decide you need support in getting control of your gambling habits.
+          </p>
+          <p class="text-sm md:text-base xl:text-lg">
+            You may obtain more useful information at:
+            <a href="https://www.gambleaware.org/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">https://www.gambleaware.org/</a>
+          </p>
+        </article>
+      </div>
+    </main>
+    <footer-element in-landing="false"></footer-element>
+  </body>
+</html>

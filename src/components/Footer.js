@@ -1,6 +1,25 @@
 import { LitElement, html, css } from 'https://cdn.jsdelivr.net/gh/lit/dist@3/core/lit-core.min.js';
 
 export class Footer extends LitElement {
+  static properties = {
+    isLanding: {
+      type: Boolean,
+      attribute: 'is-landing',
+      converter: {
+        fromAttribute: value => value !== 'false',
+        toAttribute: value => value.toString(),
+      },
+    },
+  };
+
+  constructor() {
+    super();
+  }
+
+  createRenderRoot() {
+    return this;
+  }
+
   render() {
     return html`
       <link rel="stylesheet" href="/public/styles/output.css" />
@@ -14,11 +33,11 @@ export class Footer extends LitElement {
             <div class="flex gap-5 flex-col">
               <p class="font-medium">Navigation</p>
               <ul class="flex gap-[10px] flex-col text-sm">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Why Us?</a></li>
-                <li><a href="#">Top 7</a></li>
-                <li><a href="#">FAQS</a></li>
+                <li><a href="${this.isLanding ? '#hero-section' : 'index.html'}">Home</a></li>
+                <li><a href="${this.isLanding ? '#about-section' : 'index.html#about-section'}">About Us</a></li>
+                <li><a href="${this.isLanding ? '#why-us-section' : 'index.html#why-us-section'}">Why Us?</a></li>
+                <li><a href="${this.isLanding ? '#top-7-section' : 'index.html#top-7-section'}">Top 7</a></li>
+                <li><a href="${this.isLanding ? '#faq-section' : 'index.html#faq-section'}">F.A.Q</a></li>
               </ul>
             </div>
             <div class="flex gap-5 flex-col">
@@ -52,9 +71,9 @@ export class Footer extends LitElement {
         <div class=" flex flex-col lg:justify-between lg:flex-row-reverse lg:py-4 lg:items-center lg:w-11/12 lg:mx-auto">
           <section class="pt-4  ">
             <ul class="flex gap-5 flex-col text-sm lg:flex-row">
-              <li><a href="#">Terms and Conditions</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
+              <li><a href="privacy-policy.html">Privacy Policy</a></li>
+              <li><a href="cookie-policy.html">Cookie Policy</a></li>
             </ul>
           </section>
           <div>
