@@ -5,22 +5,22 @@ export class Cards extends LitElement {
     super();
     this.data = [
       {
-        icon: '/public/assets/cards/1.png',
+        icon: '/public/assets/cards/1.webp',
         title: 'Traditional casinos array',
         description: 'Offering classic tables and electronic games.',
       },
       {
-        icon: '/public/assets/cards/2.png',
+        icon: '/public/assets/cards/2.webp',
         title: 'Fine restaurants',
         description: ' Including available restaurants & bars in Birmingham casinos.',
       },
       {
-        icon: '/public/assets/cards/3.png',
+        icon: '/public/assets/cards/3.webp',
         title: 'Lavish brick-and-mortar venues',
         description: 'Boasting the top venues in town.',
       },
       {
-        icon: '/public/assets/cards/4.png',
+        icon: '/public/assets/cards/4.webp',
         title: 'Live entertainment.',
         description: 'Considering music tributes, karaoke nights and special events. ',
       },
@@ -47,7 +47,7 @@ export class Cards extends LitElement {
     return html`
       <style>
         #cards-section {
-          background-image: url('/public/assets/cards/bg-cards.png');
+          background-image: url('/public/assets/cards/bg-cards.webp');
           background-size: cover;
           background-position: center;
         }

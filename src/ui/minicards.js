@@ -36,7 +36,7 @@ export class MiniCards extends LitElement {
       const isEven = index % 2 === 0;
       return html`
         <div class="flex flex-col ${isEven ? 'lg:flex-row-reverse text-right' : 'lg:flex-row text-left'} lg:gap-4 text-[18px] border p-6 md:p-8 items-start gap-2 rounded-lg">
-          <img src="/public/assets/minicards/icon.png" class="size-[65px] mb-5" alt="" />
+          <img src="/public/assets/minicards/icon.webp" class="size-[65px] mb-5" alt="" />
           <div>
             <h3 class="font-bold text-base lg:text-lg xl:text-xl xl:leading-relaxed">${item.title}</h3>
             <p class="text-base font-normal lg:text-lg xl:text-xl xl:leading-relaxed">${item.description}</p>

@@ -123,7 +123,7 @@ export class NavbarDesktop extends LitElement {
             <div class="flex items-center flex-grow-0">
               <div class="font-normal text-lg flex gap-2 items-center">
                 <a href="${this.getNavItemHref('hero-section')}" @click="${e => this.handleNavClick(e, 'hero-section')}">
-                  <img id="navbar-logo" class="object-contain size-12 shrink-0" src="/public/assets/navbar/logo.png" alt="Top 10 Uk Play Spots logo" title="Top 10 Uk Play Spots" />
+                  <img id="navbar-logo" class="object-contain size-12 shrink-0" src="/public/assets/navbar/logo.webp" alt="Top 10 Uk Play Spots logo" title="Top 10 Uk Play Spots" />
                 </a>
               </div>
             </div>

@@ -19,7 +19,7 @@ export class NavbarMobile extends LitElement {
     }
 
     .bg-menu-navbar {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/public/assets/navbar/background.png');
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/public/assets/navbar/background.webp');
       background-size: cover;
       background-position: center;
     }
@@ -58,12 +58,12 @@ export class NavbarMobile extends LitElement {
         <nav class="flex z-50 relative justify-between h-[80px] bg-[#FFFFFF] sm:w-[640px] md:w-[768px] w-full">
           <div class="text-lg flex gap-4 items-center">
             <a class="flex items-center gap-2" href="${this.isLanding ? '#home-section' : 'index.html'}">
-              <img class="object-contain w-[45px]" src="/public/assets/navbar/logo.png" alt="" id="logo-mobile" title="" />
+              <img class="object-contain w-[45px]" src="/public/assets/navbar/logo.webp" alt="" id="logo-mobile" title="" />
             </a>
           </div>
           <div id="menu-icon-container" class="flex items-center justify-center" @click="${this.toggleMenu}">
             <div>
-              <img src="/public/assets/navbar/menu-icon.png" class="size-7 object-contain" id="menu-icon" alt="Menu icon" />
+              <img src="/public/assets/navbar/menu-icon.webp" class="size-7 object-contain" id="menu-icon" alt="Menu icon" />
             </div>
           </div>
         </nav>

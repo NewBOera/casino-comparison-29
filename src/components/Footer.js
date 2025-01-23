@@ -26,7 +26,7 @@ export class Footer extends LitElement {
       <div class="bg-black text-white ">
         <div class="gap-6 flex flex-col px-4 lg:flex-row lg:w-11/12 lg:mx-auto lg:justify-between  lg:items-center">
           <div class="flex flex-col gap-4 pt-20 lg:w-1/3 lg:justify-center lg:pt-0 ">
-            <img src="/public/assets/footer/logo.png" class="object-contain w-[90px]" alt="logo" />
+            <img src="/public/assets/footer/logo.webp" class="object-contain w-[90px]" alt="logo" />
             <div class=" text-3xl font-normal font-Instrument capitalize leading-[34px]">Discover Birmingham’s top gaming casinos</div>
           </div>
           <section class="flex flex-col gap-10 pt-6 lg:flex-row lg:w-1/3 lg:justify-between ">
@@ -55,12 +55,12 @@ export class Footer extends LitElement {
           <section class="flex flex-col gap-8 pb-4 lg:w-1/5 ">
             <p class="font-medium">Paymet Methods</p>
             <div class="flex flex-row gap-5 flex-wrap w-9/12 [&>img]:object-contain  [&>img]:w-[60px] lg:w-full ">
-              <img src="/public/assets/footer/mastercard.png" alt="logo mastercard" />
-              <img src="/public/assets/footer/maestro.png" alt="logo maestro" />
-              <img src="/public/assets/footer/visa.png" alt="logo visa" />
-              <img src="/public/assets/footer/amex.png" alt="logo amex" />
-              <img src="/public/assets/footer/apple.png" alt="logo apple" />
-              <img src="/public/assets/footer/google.png" alt="logo google" />
+              <img src="/public/assets/footer/mastercard.webp" alt="logo mastercard" />
+              <img src="/public/assets/footer/maestro.webp" alt="logo maestro" />
+              <img src="/public/assets/footer/visa.webp" alt="logo visa" />
+              <img src="/public/assets/footer/amex.webp" alt="logo amex" />
+              <img src="/public/assets/footer/apple.webp" alt="logo apple" />
+              <img src="/public/assets/footer/google.webp" alt="logo google" />
             </div>
           </section>
         </div>
