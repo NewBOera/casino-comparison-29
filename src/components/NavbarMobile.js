@@ -54,11 +54,11 @@ export class NavbarMobile extends LitElement {
     return html`
       <link rel="stylesheet" href="/public/styles/output.css" />
 
-      <header class="flex items-center justify-center lg:hidden fixed z-50 shadow-[0px_10px_50px_-30px_#00000024] w-full px-4 sm:px-6 md:px-8 lg:px-10 bg-[#FFFFFF]">
+      <header class="flex items-center justify-center md:hidden fixed z-50 shadow-[0px_10px_50px_-30px_#00000024] w-full px-4 sm:px-6 md:px-8 lg:px-10 bg-[#FFFFFF]">
         <nav class="flex z-50 relative justify-between h-[80px] bg-[#FFFFFF] sm:w-[640px] md:w-[768px] w-full">
           <div class="text-lg flex gap-4 items-center">
             <a class="flex items-center gap-2" href="${this.isLanding ? '#home-section' : 'index.html'}">
-              <img class="object-contain w-[45px]" src="/public/assets/navbar/logo.webp" alt="" id="logo-mobile" title="" />
+              <img class="object-contain w-[45px]" src="/public/assets/navbar/logo.webp" alt="" id="Best 10 UK Spots logo" title="Best 10 UK Spots logo" />
             </a>
           </div>
           <div id="menu-icon-container" class="flex items-center justify-center" @click="${this.toggleMenu}">

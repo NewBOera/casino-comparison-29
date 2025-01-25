@@ -5,8 +5,9 @@ body {
 }
 
 section,
-div {
-  scroll-margin-top: 150px;
+div,
+article {
+  scroll-margin-top: 110px;
 }
 
 .gradient {

@@ -26,8 +26,8 @@ export class Footer extends LitElement {
       <div class="bg-black text-white ">
         <div class="gap-6 flex flex-col px-4 lg:flex-row lg:w-11/12 lg:mx-auto lg:justify-between  lg:items-center">
           <div class="flex flex-col gap-4 pt-20 lg:w-1/3 lg:justify-center lg:pt-0 ">
-            <img src="/public/assets/footer/logo.webp" class="object-contain w-[90px]" alt="logo" />
-            <div class=" text-3xl font-normal font-Instrument capitalize leading-[34px]">Discover Birmingham’s top gaming casinos</div>
+            <img src="/public/assets/footer/logo.webp" class="object-contain w-[90px]" alt="Best 10 UK Spots logo" title="Best 10 UK Spots logo" />
+            <div class="text-3xl font-normal font-Instrument capitalize leading-[34px]">Discover Birmingham’s top gaming casinos</div>
           </div>
           <section class="flex flex-col gap-10 pt-6 lg:flex-row lg:w-1/3 lg:justify-between ">
             <div class="flex gap-5 flex-col">
@@ -44,23 +44,32 @@ export class Footer extends LitElement {
               <p class="font-medium">Company</p>
 
               <ul class="flex gap-[10px]  text-white flex-col text-sm">
-                <li>Name: [change_NAME]</li>
-                <li>Email Address: [change_EMAIL]</li>
-                <li>Support Email: [change_EMAIL]</li>
-                <li>Address: [change_ADDRESS]</li>
-                <li>Phone Number: [change_PHONE]</li>
+                <li>Name: Best 10 UK Spots</li>
+                <li>
+                  Email Address:
+                  <a href="mailto:info@best10ukspots.com">info@best10ukspots.com</a>
+                </li>
+                <li>
+                  Support Email:
+                  <a href="mailto:support@best10ukspots.com">support@best10ukspots.com</a>
+                </li>
+                <li>Address: Pure Offices, Turnberry Park Rd, Morley, Gildersome, Leeds LS27 7LE, United Kingdom</li>
+                <li>
+                  Phone Number:
+                  <a href="tel:+44 113 350 1011">+44 113 350 1011</a>
+                </li>
               </ul>
             </div>
           </section>
           <section class="flex flex-col gap-8 pb-4 lg:w-1/5 ">
             <p class="font-medium">Paymet Methods</p>
             <div class="flex flex-row gap-5 flex-wrap w-9/12 [&>img]:object-contain  [&>img]:w-[60px] lg:w-full ">
-              <img src="/public/assets/footer/mastercard.webp" alt="logo mastercard" />
-              <img src="/public/assets/footer/maestro.webp" alt="logo maestro" />
-              <img src="/public/assets/footer/visa.webp" alt="logo visa" />
-              <img src="/public/assets/footer/amex.webp" alt="logo amex" />
-              <img src="/public/assets/footer/apple.webp" alt="logo apple" />
-              <img src="/public/assets/footer/google.webp" alt="logo google" />
+              <img src="/public/assets/footer/mastercard.webp" alt="MasterCard logo" title="MasterCard logo" />
+              <img src="/public/assets/footer/maestro.webp" alt="Maestro logo" title="Maestro logo" />
+              <img src="/public/assets/footer/visa.webp" alt="Visa logo" title="Visa logo" />
+              <img src="/public/assets/footer/amex.webp" alt="American Express logo" title="American Express logo" />
+              <img src="/public/assets/footer/apple.webp" alt="Apple Pay logo" title="Apple Pay logo" />
+              <img src="/public/assets/footer/google.webp" alt="Google Pay logo" title="Google Pay logo" />
             </div>
           </section>
         </div>
@@ -69,7 +78,7 @@ export class Footer extends LitElement {
         </div>
 
         <div class=" flex flex-col lg:justify-between lg:flex-row-reverse lg:py-4 lg:items-center lg:w-11/12 lg:mx-auto">
-          <section class="pt-4  ">
+          <section class="pt-4">
             <ul class="flex gap-5 flex-col text-sm lg:flex-row">
               <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
               <li><a href="privacy-policy.html">Privacy Policy</a></li>
@@ -77,7 +86,7 @@ export class Footer extends LitElement {
             </ul>
           </section>
           <div>
-            <p class="  text-sm ">©2025 [change_NAME]. All rights reserved</p>
+            <p class="text-sm ">©2025 Best 10 UK Spots. All rights reserved</p>
           </div>
         </div>
       </div>

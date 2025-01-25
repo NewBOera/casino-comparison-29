@@ -66,7 +66,7 @@ export class Casino extends LitElement {
     }
 
     return html`
-      <article class="flex flex-col gap-6">
+      <article class="flex flex-col gap-6" id="${this.casinoInfo.casinoInfo.id}">
         <section class="flex flex-col gap-4">
           <div class="flex flex-col gap-1">
             <div class="flex flex-col gap-1 lg:flex-row lg:gap-2">

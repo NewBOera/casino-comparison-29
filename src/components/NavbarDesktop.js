@@ -102,7 +102,6 @@ export class NavbarDesktop extends LitElement {
       return;
     }
 
-    // Si estamos en la página principal
     this.activeSection = sectionId;
     this.scrollToSection(sectionId);
     history.pushState(null, null, `#${sectionId}`);
@@ -117,13 +116,13 @@ export class NavbarDesktop extends LitElement {
       <link rel="stylesheet" href="/public/styles/output.css" />
       <link rel="stylesheet" href="/public/styles/globals.css" />
 
-      <header class="hidden text-black justify-center items-center lg:inline-flex fixed z-50 w-full bg-[#FFFFFF] font-Peridot shadow-sm">
+      <header class="hidden text-black justify-center items-center md:inline-flex fixed z-50 w-full bg-[#FFFFFF] font-Peridot shadow-sm">
         <div class="sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] w-full px-4 sm:px-6 md:px-8 lg:px-4">
           <nav class="flex justify-between items-center rounded-xl h-[80px] w-full px-5">
             <div class="flex items-center flex-grow-0">
               <div class="font-normal text-lg flex gap-2 items-center">
                 <a href="${this.getNavItemHref('hero-section')}" @click="${e => this.handleNavClick(e, 'hero-section')}">
-                  <img id="navbar-logo" class="object-contain size-12 shrink-0" src="/public/assets/navbar/logo.webp" alt="Top 10 Uk Play Spots logo" title="Top 10 Uk Play Spots" />
+                  <img id="navbar-logo" class="object-contain size-12 shrink-0" src="/public/assets/navbar/logo.webp" alt="Best 10 UK Spots logo" title="Best 10 UK Spots" />
                 </a>
               </div>
             </div>

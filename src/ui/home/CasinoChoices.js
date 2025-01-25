@@ -58,7 +58,7 @@ export class CasinoChoices extends LitElement {
                     <span class="text-white font-medium mt-1 text-sm">${casino.index}</span>
                   </div>
                   <div class="flex flex-col gap-1.5 xl:text-lg sm:flex-row">
-                    <h5 class="text-purple lg:font-normal text-base font-normal lg:text-lg xl:text-xl xl:leading-relaxed">${casino.name}</h5>
+                    <a href="#${casino.id}" class="text-purple lg:font-normal text-base font-normal lg:text-lg xl:text-xl xl:leading-relaxed">${casino.name}</a>
                     <h6 class="font-extralight text-base lg:text-lg xl:text-xl xl:leading-relaxed text-[#0F0F0F80]">
                       Open daily
                       <span class="text-black">(${casino.openDate})</span>

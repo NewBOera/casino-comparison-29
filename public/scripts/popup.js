@@ -20,14 +20,14 @@ function getCookie(name) {
 function verifyAge(isAdult) {
   if (isAdult) {
     document.getElementById('ageVerification').style.display = 'none';
-    setCookie('[change_DOMAIN]_age', 'true', 2);
+    setCookie('best10ukspots.com_age', 'true', 2);
   } else {
     window.location.href = 'https://www.google.com';
   }
 }
 
 window.onload = function () {
-  const ageVerified = getCookie('[change_DOMAIN]_age');
+  const ageVerified = getCookie('best10ukspots.com_age');
   if (ageVerified !== 'true') {
     const modal = document.getElementById('ageVerification');
     if (modal) {

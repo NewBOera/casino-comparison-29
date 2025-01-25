@@ -3,13 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Top 7 Casinos in Birmingham UK</title>
+    <link rel="shortcut icon" href="/public/assets/footer/logo.webp" type="image/x-icon" />
+
+    <script id="CookieConsent" src="https://policy.app.cookieinformation.com/uc.js" data-culture="EN" data-gcm-version="2.0" type="text/javascript"></script>
+
+    <meta
+      name="description"
+      content="best10ukspots.com is a ranking website that ranks the top brick-and-mortar casinos in Birmingham, UK.
+
+      It is structured as a landing page divided into sections such as Hero Title, Our Partners, About Us, Why Choose Us, Top 10, Frequently Asked Questions, Contact, Footer, and Legal Information.
+      
+      Hero or Header Title provides a full description of the general services the website provides and describes its target audience.
+      
+      Our Partners section shows some of our business partners included in our Website.
+      The About Us section describes the services offered on the website.
+      
+      The Why Choose Us section outlines the competitive advantages of our services and platform.
+      
+      The Top 10 section lists and ranks the best bricks and mortar casinos in the UK.
+      Each casino selection provides location, feature, amenities and services available, package pricing and review highlights.
+      
+      The FAQ discloses examples of the frequently asked questions and concerns users make regarding the services and features on best10ukspots.com.  Providing answers and guidance to those.
+      
+      The Contact section contains the form where users provide their contact information for an agent follow up and assistance. A Thank You Page confirms users their contact details were 
+      
+      The Footer section displays legal and disclaimer information that governs the landing page itself."
+    />
+    <meta name="author" content="Best 10 UK Spots" />
+    <meta name="created" content="January 2025" />
+    <meta name="modified" content="January 2025" />
 
     <!-- Adobe Font -->
     <link rel="stylesheet" href="https://use.typekit.net/qlw2ops.css" />
 
     <link rel="stylesheet" href="/public/styles/globals.css" />
     <link rel="stylesheet" href="/public/styles/output.css" />
+
+    <link rel="stylesheet" href="/public/styles/popup.css" />
+    <script src="/public/scripts/popup.js"></script>
 
     <!-- Components -->
     <script src="/src/components/NavbarMobile.js" type="module"></script>
@@ -27,6 +59,17 @@
     <script src="/src/components/Footer.js" type="module"></script>
   </head>
   <body>
+    <div class="age-verification flex hidden" id="ageVerification">
+      <div class="popup-content">
+        <h2 class="popup-title">Are you 18 years of age or older?</h2>
+        <p class="popup-text">We need to verify your age to access this site, following UK regulations.</p>
+        <div class="button-group">
+          <button class="btn btn-yes" onclick="verifyAge(true)">Yes</button>
+          <button class="btn btn-no" onclick="verifyAge(false)">No</button>
+        </div>
+      </div>
+    </div>
+
     <navbar-mobile is-landing="true"></navbar-mobile>
     <navbar-desktop is-landing="true"></navbar-desktop>
 
