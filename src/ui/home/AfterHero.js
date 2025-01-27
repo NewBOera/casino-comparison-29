@@ -30,22 +30,22 @@ export class AfterHero extends LitElement {
             <section class="flex gap-4 w-full lg:w-5/12 xl:w-4/12 h-full max-h-[300px]">
               <div class="flex flex-col justify-between gap-4">
                 <div class="w-full h-[133.33px] lg:h-[33%] overflow-hidden rounded-lg">
-                  <img src="/public/assets/afterHero/1.webp" alt="Slot machines" title="Slot machines" class="w-full h-full object-cover" />
+                  <img src="https://cdn.best10ukspots.com/public/assets/afterHero/1.webp" alt="Slot machines" title="Slot machines" class="w-full h-full object-cover" />
                 </div>
                 <div class="w-full h-[133.33px] lg:h-[33%] overflow-hidden rounded-lg lg:w-[calc(100%+20px)] lg:-ml-[20px] xl:w-[calc(100%+40px)] xl:-ml-[40px]">
-                  <img src="/public/assets/afterHero/2.webp" alt="Casino cards dealer" title="Casino cards dealer" class="w-full h-full object-cover" />
+                  <img src="https://cdn.best10ukspots.com/public/assets/afterHero/2.webp" alt="Casino cards dealer" title="Casino cards dealer" class="w-full h-full object-cover" />
                 </div>
                 <div class="w-full h-[133.33px] lg:h-[33%] overflow-hidden rounded-lg">
-                  <img src="/public/assets/afterHero/3.webp" alt="Casino chips and dice" title="Casino chips and dice" class="w-full h-full object-cover" />
+                  <img src="https://cdn.best10ukspots.com/public/assets/afterHero/3.webp" alt="Casino chips and dice" title="Casino chips and dice" class="w-full h-full object-cover" />
                 </div>
               </div>
 
               <div class="flex flex-col justify-between gap-4">
                 <div class="w-full h-2/4 lg:h-2/4 overflow-hidden rounded-lg">
-                  <img src="/public/assets/afterHero/4.webp" alt="Casino slot machines" title="Casino slot machines" class="w-full h-full object-cover" />
+                  <img src="https://cdn.best10ukspots.com/public/assets/afterHero/4.webp" alt="Casino slot machines" title="Casino slot machines" class="w-full h-full object-cover" />
                 </div>
                 <div class="w-full h-2/4 lg:h-2/4 overflow-hidden rounded-lg">
-                  <img src="/public/assets/afterHero/5.webp" alt="Casino gaming floor" title="Casino gaming floor" class="w-full h-full object-cover" />
+                  <img src="https://cdn.best10ukspots.com/public/assets/afterHero/5.webp" alt="Casino gaming floor" title="Casino gaming floor" class="w-full h-full object-cover" />
                 </div>
               </div>
             </section>

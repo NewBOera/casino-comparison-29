@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./src/**/*.{html,js}', './*.html'],
+  content: ['.https://cdn.best10ukspots.com/src/**/*.{html,js}', './*.html'],
   theme: {
     extend: {
       colors: {
