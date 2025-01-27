@@ -1149,11 +1149,6 @@ video {
   background-color: rgb(96 40 165 / var(--tw-bg-opacity, 1));
 }
 
-.bg-slate-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1));
-}
-
 .bg-transparent {
   background-color: transparent;
 }
@@ -1706,10 +1701,6 @@ video {
 
   .lg\:mt-\[80px\] {
     margin-top: 80px;
-  }
-
-  .lg\:inline-flex {
-    display: inline-flex;
   }
 
   .lg\:hidden {

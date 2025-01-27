@@ -70,7 +70,7 @@ export class Casino extends LitElement {
         <section class="flex flex-col gap-4">
           <div class="flex flex-col gap-1">
             <div class="flex flex-col gap-1 lg:flex-row lg:gap-2">
-              <h2 class="lg:text-lg xl:text-xl">${this.casinoInfo.index}. ${this.casinoInfo.casinoInfo.title}</h2>
+              <h2 class="lg:text-lg xl:text-xl font-medium">${this.casinoInfo.index}. ${this.casinoInfo.casinoInfo.title}</h2>
               <h3 class="font-semibold text-purple lg:text-lg xl:text-xl">${this.casinoInfo.casinoInfo.name}</h3>
             </div>
             <h4 class="text-sm xl:text-base">
