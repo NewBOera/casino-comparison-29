@@ -77,7 +77,7 @@ export class Casino extends LitElement {
               <span class="italic">Per person</span>
               :  Starting at
               <span>£${this.casinoInfo.casinoInfo.pricing.starting}</span>
-              , and u to £2697
+              , and u to £${this.casinoInfo.casinoInfo.pricing.upTo}
             </h4>
           </div>
 
